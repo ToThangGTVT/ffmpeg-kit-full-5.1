@@ -5,7 +5,7 @@ import PackageDescription
 
 let release = "full.v5.1"
 
-let frameworks = ["ffmpegkit": "eb3fa0a08fa7477ab38a8c43af7061e257f623ee58818f397f2db9aba31ef335", "libavcodec": "10ff17871015a75a83e1d9572d159b3752d47d78a94561ad14805a67b2660684", "libavdevice": "3dad9b09ba13553e1be34df5ce266a7b2b69c193e15eae3e6f5d5403c34f465a", "libavfilter": "17159b2cc5a91e7a47b9650f55f55eded9943745b880c90a2a7c4c6ac901abb4", "libavformat": "ebc5e8ae76a4f5a47a3141abbad562a64a76c4d47d9460ecbcfab84f20487179", "libavutil": "3b9f6a744ea0c2a5c3b571afac3956616efddfada67b77229830ce0c1c8336d7", "libswresample": "514647ce7c334dbae57c8fa0892130d4d19bf11b26acac85d750c5842a54e2c7", "libswscale": "6a93db66a432f1daf38080a5eaff0de93eecc11ffa0d709e07637dc8804fd1f0"]
+let frameworks = ["ffmpegkit": "d6e9e8db595c0a4ee1c6ca7f5d13b7f2c53c2c6c8dc5eee838b5aef096b2fc9f", "libavcodec": "52738e8ea3ee66a9ed49d6ea11546b8b2264bac4a1c4699676121c4a7d49f065", "libavdevice": "57a76f5bd2762215a9373e439aea97d03edc1cc533d6df665536e84e693e4296", "libavfilter": "e9e64d1b946e5b1ea016a77616d03ac191d6f03245e550d9d9b94351b594b4ed", "libavformat": "b9358d979ab73b5aa977b7572c9518091f96ec67352ff24910cbd09179226863", "libavutil": "7643c31cd1fad2b3bc44f4016667b3bdc12291409963ec25db517a2a76540cbb", "libswresample": "64bf0b738807f6620f59722fea1b03f417003377a09f3e1f72fed471b60ff58c", "libswscale": "8f6fc4e83c4ee163d95943f1c483c654f8bf7ee16b9847679006fba3e7ff8afb"]
 
 func xcframework(_ package: Dictionary<String, String>.Element) -> Target {
     let url = "https://github.com/ToThangGTVT/ffmpeg-kit-full-5.1/releases/download/\(release)/\(package.key).xcframework.zip"
